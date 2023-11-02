@@ -1,9 +1,14 @@
 function About() {
     return (
-        <div>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+        <div className='about-div'>
+            <h1 className='title'>About Me</h1>
+                <div className='about-me'>
+                    <p className='about-text'>
+                    Hi, my name is Bree! I am a full-stack developer. I am about to earn my certificate of completion from the UofM full-stack bootcamp! I am looking forward to using my new programming skills to build more applications!
+                    </p>
+                    <img className='picture'src='src\assets\photo of me.jpg' alt='Photo of me'></img>
+                </div>
+            
         </div>
     )
 }

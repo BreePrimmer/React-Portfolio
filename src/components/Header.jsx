@@ -7,9 +7,7 @@ function Header() {
             <header>
                 <h1>Bree</h1>
             </header>
-            {/* <Navigation>
-                
-            </Navigation> */}
+            <Navigation />
         </div>
     )
 }

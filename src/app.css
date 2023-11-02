@@ -9,7 +9,10 @@
   }
   
 body {
-    background-color: whitesmoke;
+    background-color: #FEFBEA;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* ---------------------------------------------------- */
@@ -51,7 +54,7 @@ nav ul li a:hover {
 /* footer */
 
 footer {
-    position: fixed;
+    position: relative;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -91,4 +94,35 @@ ul li a:hover {
 
 #no-border {
     border-right-width: 0px !important;
+}
+
+.title {
+    font-size: 150%;
+    color: #AA8976;
+}
+
+.about-div {
+    padding: 20px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.about-text {
+    width: 50%;
+    color: #AA8976;
+}
+
+.picture {
+    width: 33%;
+    height: 33%;
+    padding: 10px;
+    border-radius: 25px;
+    border-style: dotted;
+    border-color:#AA8976
+
 }
