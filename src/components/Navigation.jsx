@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import About from './About'
+import About from '../pages/About'
 
 function Navigation() {
 
@@ -19,10 +19,10 @@ const currentPage = useLocation().pathname;
                     </li> */}
                     <li>
                         <Link 
-                          to='/Projects'
-                          className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+                          to='/About'
+                          className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
                         >
-                          Project
+                          About
                         </Link>
                     </li>
 

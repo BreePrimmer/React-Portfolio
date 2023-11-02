@@ -1,4 +1,3 @@
-import { Outlet } from 'react-router-dom';
 import Navigation from './navigation'
 
 
@@ -8,10 +7,7 @@ function Header() {
             <header>
                 <h1>Bree</h1>
             </header>
-            <Navigation>
-                
-            </Navigation>
-            <Outlet />
+            <Navigation />
         </div>
     )
 }
