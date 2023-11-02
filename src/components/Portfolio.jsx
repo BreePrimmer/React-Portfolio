@@ -1,12 +1,11 @@
 import Header from './Header';
+import Footer from './footer'
 
 function Portfolio() {
     return (
         <div>
-            <Header>
-                
-            </Header>
-            <h1>Hello</h1>
+            <Header />
+            <Footer />
         </div>
     )
 }
