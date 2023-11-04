@@ -1,13 +1,13 @@
 import './App.css';
-import Portfolio from './components/Portfolio';
 import Footer from './components/footer';
+import Header from './components/Header';
 
 import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
     <div className="portfolio">
-      <Portfolio />
+      <Header />
       <Outlet />
       <Footer />
     </div>

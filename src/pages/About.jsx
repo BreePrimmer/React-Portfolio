@@ -8,7 +8,6 @@ function About() {
                     </p>
                     <img className='picture'src='src\assets\photo of me.jpg' alt='Photo of me'></img>
                 </div>
-            
         </div>
     )
 }

@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
+:root {
+    --brown: #AA8976;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -18,12 +22,13 @@ body {
 /* ---------------------------------------------------- */
 /* navbar */
 
-nav ul {
+ul {
     display: flex;
     list-style-type: none;
+    align-items: center;
 } 
 
-nav ul li {
+ul li {
     padding-right: 10px;
     margin-left: 10px;
     border-style: solid;
@@ -32,20 +37,20 @@ nav ul li {
     border-color: #F0E2D0
 }
 
-nav ul li a {
+ul li a {
     font-size: 150%;
     text-decoration: none;
     color: #F0E2D0;
 }
 
-nav ul li a:hover {
+ul li a:hover {
     text-decoration: underline;
     color: #C6EBC9
 }
 
 .navbar {
     display: flex;
-    background-color: #AA8976;
+    background-color: var(--brown);
     justify-content: space-between;
     align-items: center;
 }
@@ -63,7 +68,7 @@ footer {
     background-color: #AA8976
 }
 
-footer ul {
+/* footer ul {
     display: flex;
     list-style-type: none;
     justify-content: center;
@@ -83,12 +88,12 @@ footer ul li a {
     font-size: 150%;
     text-decoration: none;
     color: #F0E2D0;
-}
+} */ 
 
-ul li a:hover {
+/* ul li a:hover {
     text-decoration: underline;
     color: #C6EBC9
-}
+} */
 
 
 
