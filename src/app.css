@@ -106,7 +106,7 @@ footer ul li a {
     color: #AA8976;
 }
 
-.about-div {
+.content-div {
     padding: 20px;
 }
 
@@ -130,4 +130,46 @@ footer ul li a {
     border-style: dotted;
     border-color:#AA8976
 
+}
+
+/* -------------------------------------- */
+/* contact */
+input {
+    width: 400px;
+}
+
+textarea {
+    width: 400px;
+}
+
+button {
+    background-color: #AA8976;
+    color: #F0E2D0;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 50%;
+}
+
+button:hover {
+    background-color: #C6EBC9;
+    color: #70AF85;
+}
+
+.input-div {
+    padding: 10px 0px;
+}
+
+.contact-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.submit-text {
+    padding: 50px;
+}
+
+#comments {
+    height: 150px;
 }
