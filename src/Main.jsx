@@ -4,8 +4,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import './index.css'
 import App from './app.jsx'
-import Portfolio from './components/Portfolio.jsx';
+import Portfolio from './pages/Portfolio.jsx'
 import About from './pages/About.jsx'
+import Contact from './pages/Contact.jsx'
+import Resume from './pages/Resume.jsx'
 
 const router = createBrowserRouter([
   {
@@ -15,24 +17,24 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Portfolio />
+        element: <About />
       },
       {
         path: '/About',
         element: <About />
       },
-//       {
-//         path: '/Projects',
-//         element: <Project />
-//       },
-//       {
-//         path: '/Contact',
-//         element: <Contact />
-//       },
-//       {
-//         path: '/Resume',
-//         element: <Resume />
-//       }
+      {
+        path: '/Portfolio',
+        element: <Portfolio />
+      },
+      {
+        path: '/Contact',
+        element: <Contact />
+      },
+      {
+        path: '/Resume',
+        element: <Resume />
+      }
     ],
   }
 ])

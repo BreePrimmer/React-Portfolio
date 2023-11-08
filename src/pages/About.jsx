@@ -1,6 +1,6 @@
 function About() {
     return (
-        <div className='about-div'>
+        <div className='content-div'>
             <h1 className='title'>About Me</h1>
                 <div className='about-me'>
                     <p className='about-text'>
@@ -8,7 +8,6 @@ function About() {
                     </p>
                     <img className='picture'src='src\assets\photo of me.jpg' alt='Photo of me'></img>
                 </div>
-            
         </div>
     )
 }
