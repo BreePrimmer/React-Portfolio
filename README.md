@@ -1,6 +1,16 @@
 # React-Portfolio
-An updated portfolio that uses React!
 
+## Description
+
+This project is an updated version of my original portfolio, this time using React! 
+
+## Usage
+
+[Website Link]()
+
+![Website sc](./src/assets/react-port-sc.JPG)
+
+To use this site, you can click on the links on the navbar to switch between different pages. The links at the bottom will take you to the represented websites. Currently the portfolio links are not working and the resume is not downloadable.
 
 ## Credits
 
