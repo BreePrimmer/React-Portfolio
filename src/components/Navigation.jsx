@@ -1,5 +1,5 @@
-import { Link, useLocation } from 'react-router-dom';
-import About from '../pages/About'
+import { Link, useLocation, Router, Route } from 'react-router-dom';
+import Project from '../components/Project'
 
 function Navigation() {
 

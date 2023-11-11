@@ -173,3 +173,67 @@ button:hover {
 #comments {
     height: 150px;
 }
+
+/* -------------------------------------- */
+/* portfolio css */
+.p-title {
+    font-size: 150%;
+    color: #AA8976;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.portfolio-column {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 25px;
+}
+
+/* project css */
+.project-container {
+    margin: 50px
+}
+
+.project-div {
+    height: 305px;
+    width: 598px;
+    border-radius: 25px;
+}
+
+.project-div:hover {
+    border-style: solid;
+    border-color: #AA8976;
+    border-width: 5px;
+}
+
+
+.image-container {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    height: 300px;
+    width: 595px;
+    left: 0px;
+    text-decoration: none;
+    opacity: 0%;
+}
+
+.caption:hover {
+    opacity: 100%;
+    color: #000;
+    text-decoration: underline;
+
+}
+.project-img {
+    height: 300px;
+    width: 592px;
+    border-radius: 25px;
+}
